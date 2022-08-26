@@ -23,7 +23,7 @@ static void Main(string[] args)
 	int [] array = new int[m];
 	for(int i = 0; i < m; i++)
 	{
-		Console.Write("Введите  {0}-й элемент = ", i+1);
+		Console.Write("Введите  {0}-й элемент массива = ", i+1);
 		array[i] = Convert.ToInt32(Console.ReadLine());
 	}
 	int count = 0;
