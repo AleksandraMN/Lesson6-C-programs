@@ -25,7 +25,7 @@ class Program
 	double [] array = new double[2];
 	array[0] = x;
 	array[1] = y;
-	Console.Write("Точка пересечения двух прямых, заданных уравнениями y = k1 * x + b1, y = k2 * x + b2 = ( ");
+	Console.Write("Точка пересечения двух прямых, заданных уравнениями y = k1 * x + b1, y = k2 * x + b2, = ( ");
 	for(int i = 0; i < array.Length-1; i++)
 	{
 		Console.Write($"{array[i]}; ");
